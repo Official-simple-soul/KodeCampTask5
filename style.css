@@ -354,12 +354,14 @@
         height: 40vh;
         background-color: #FF6433;
         position: absolute;
-        left: 30%; 
+        left: 30%;
+        text-align: center;
     }
     .getInTouch h3 {
         margin-top: 5%;
         margin-left: 55px;
         color: white;
+        text-align: center;
     }
     .getInTouch button {
         padding: 10px 20px;
