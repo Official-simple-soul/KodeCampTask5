@@ -964,7 +964,7 @@
             text-align: center;
         }
         .getInTouch h2 {
-            font-size: 23px;
+            font-size: 33px;
             width: 80%;
             margin: 20px auto;
             text-align: center;
@@ -1013,18 +1013,16 @@
         /*seventh section*/
         .section-7 {
         }
-       .section-7-container {
-          width: 100%;
-        }
+     
         #section-7-row-one {
-            width: 100%;
+            width: 90%;
         }
         #section-7-row-one p {
             width: 90%;
             text-align: justify;
         }
         .section-7-other-rows-content {
-            width: 100%;
+            width: 90%;
         }
         .section-7-other-rows-content h3 {
             padding: 4px 8px;
@@ -1497,9 +1495,11 @@
         }
         .section-7-other-rows-content h3 {
             padding: 4px 8px;
+            font-size: 13px;
         }
         .section-7-row-one-content h3 {
             padding: 4px 8px;
+            font-size: 13px;
         }
         /*eigth section*/
     
