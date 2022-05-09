@@ -789,7 +789,6 @@
         .flex {
             flex-direction: column;
             width: 100%;
-            min-height: 100%;
             margin: 0px auto;
             text-align: center;
         }
@@ -845,7 +844,6 @@
         .flex-2 {
             flex-direction: column;
             width: 100%;
-            min-height: 100%;
         }
         .flex-2 .left-half-2 {
             width: 100%;
@@ -882,7 +880,6 @@
         .flex-3 {
             flex-direction: column;
             width: 100%;
-            min-height: 100%;
             margin: 0px auto;
             text-align: center;
         }
@@ -916,7 +913,6 @@
         /*forth section*/
         .section-4 {
             width: 100%;
-            min-height: 100%;
             background-color: #F2F2F2;
             text-align: center;
         }
@@ -950,16 +946,16 @@
         }
         /*fifth section*/
         .section-5 {
-            min-height: 70vh;
         }
         .first-half {
-            height: 40vh;
+            height: 50vh;
         }
         .second-half {
-            height: 40vh;
+            height: 50vh;
         }
         .getInTouch {
             width: 70%;
+            height: 50vh;
             background-color: #FF6433;
             position: absolute;
             left: 30%;
@@ -998,11 +994,9 @@
         }
         /*sixth section*/
         .section-6 {
-            min-height: 50vh;
         }
         .section-6-container {
             width: 90%;
-            min-height: 50vh;
         }
         .section-6-body {
             width: 80%;
@@ -1016,10 +1010,8 @@
         }
         /*seventh section*/
         .section-7 {
-            min-height: 50vh;
         }
        .section-7-container {
-            min-height: 50vh;
         }
         #section-7-row-one {
             width: 90%;
