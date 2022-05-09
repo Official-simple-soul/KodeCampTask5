@@ -351,7 +351,6 @@
     }
     .getInTouch {
         width: 75%;
-        min-height: 100%;
         background-color: #FF6433;
         position: absolute;
         left: 30%; 
@@ -374,12 +373,10 @@
         opacity: .7;
     }
     .section-5-second {
-        height: 15vh;
         background-color: #F2F2F2;
         padding: 0px 35px 5px 35px;
     }
     .section-5-third {
-        min-height: 45vh;
         background-color: #FAFAFA;
         width: 100%;
         text-align: center;
@@ -962,7 +959,6 @@
         }
         .getInTouch {
             width: 70%;
-            min-height: 100%;
             background-color: #FF6433;
             position: absolute;
             left: 30%;
@@ -988,10 +984,8 @@
             width: 100%;
         }
         .section-5-second {
-            min-height: 7vh;
         }
         .section-5-third {
-            min-height: 20vh;
         }
         #number-text-id {
             padding: 0px 5px 5px 5px;
