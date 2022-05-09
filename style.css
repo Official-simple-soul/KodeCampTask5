@@ -356,7 +356,7 @@
         position: absolute;
         left: 30%; 
     }
-    .getInTouch h2 {
+    .getInTouch h3 {
         margin-top: 5%;
         margin-left: 55px;
         color: white;
@@ -1014,14 +1014,14 @@
        .section-7-container {
         }
         #section-7-row-one {
-            width: 90%;
+            width: 100%;
         }
         #section-7-row-one p {
             width: 90%;
             text-align: justify;
         }
         .section-7-other-rows-content {
-            width: 90%;
+            width: 100%;
         }
         .section-7-other-rows-content h3 {
             padding: 4px 8px;
