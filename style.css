@@ -351,7 +351,7 @@
     }
     .getInTouch {
         width: 75%;
-        height: 100%;
+        height: 40vh;
         background-color: #FF6433;
         position: absolute;
         left: 30%; 
