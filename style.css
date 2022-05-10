@@ -75,7 +75,6 @@
     .flex {
         display: flex;
         width: 80%;
-        min-height: 75vh;
         margin: 40px auto;
     }
     
@@ -140,7 +139,6 @@
     .flex-2 {
         display: flex;
         width: 80%;
-        min-height: 100vh;
         margin: auto;
     }
     
@@ -221,7 +219,6 @@
     .flex-3 {
         display: flex;
         width: 80%;
-        min-height: 60vh;
         margin: 40px auto;
     }
     .left-half-3 {
@@ -273,9 +270,9 @@
     /*forth section*/
     .section-4 {
         width: 100%;
-        min-height: 100vh;
         background-color: #F2F2F2;
         text-align: center;
+        padding-bottom: 15px;
     }
     .section-4-container {
         width: 70%;
@@ -331,10 +328,10 @@
     .section-5-first {
         display: flex;
         position: relative;
+        height: 40vh;
     }
     .first-half {
         width: 50%;
-        height: 40vh;
         background-image: url(image/Image1.png);
         background-position: center;
         background-size: cover;
@@ -343,7 +340,6 @@
     }
     .second-half {
         width: 50%;
-        height: 40vh;
         background-image: url(image/ovGrEUgrkyE.png);
         background-position: center;
         background-size: cover;
@@ -351,17 +347,21 @@
     }
     .getInTouch {
         width: 75%;
-        height: 40vh;
+        height: 100%;
         background-color: #FF6433;
         position: absolute;
         left: 30%;
         text-align: center;
     }
     .getInTouch h3 {
-        margin-top: 5%;
-        margin-left: 55px;
         color: white;
         text-align: center;
+        width: 70%;
+        margin: auto;
+        padding-top: 2%;
+    }
+    #getInTouchH3 {
+        font-size: 35px;
     }
     .getInTouch button {
         padding: 10px 20px;
@@ -370,14 +370,13 @@
         color: white;
         background-color: black;
         margin-top: 35px;
-        margin-left: 55px;
     }
     .getInTouch button:hover {
         opacity: .7;
     }
     .section-5-second {
         background-color: #F2F2F2;
-        padding: 0px 35px 5px 35px;
+        padding: 0px 35px 8px 35px;
     }
     .section-5-third {
         background-color: #FAFAFA;
@@ -408,18 +407,19 @@
     /*sixth section*/
     .section-6 {
         width: 100%;
-        min-height: 100vh;
         background-color: #F2F2F2;
+        padding-bottom: 15px;
     }
     
     .section-6-container {
         width: 80%;
-        min-height: 100vh;
         margin: auto;
     }
     .section-6 h1 {
         text-align: center;
         padding-top: 55px;
+        width: 65%;
+        margin: auto;
     }
     .section-6-flex {
         display: flex;
@@ -430,7 +430,6 @@
     
     .section-6-body {
         width: 40%;
-        height: 37vh;
         margin-left: 10px;
         background-color: #fff;
         margin-top: 40px;
@@ -457,64 +456,41 @@
     }
     
     .section-6-dashed-right {
-        margin-left: 28.5%;
+        margin-left: 28%;
     }
     
     .section-7 {
-        width: 100%;
-        min-height: 100vh;
         background-color: #E2E6E9;
-    }
-    
-    .section-7 h1 {
         text-align: center;
-        margin-bottom: 40px;
-        padding-top: 50px;
-        font-size: 30px;
     }
-    
+    .section-7-container {
+        background-color: #E2E6E9;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 10px;
+    }
     #section-7-row-one {
-       width: 60%;
-       margin: auto;
-       background-color: white;
-       margin-bottom: 10px;
-       padding: 20px 25px;
+        background-color:white;
+        padding: 13px 10px;
+        margin-bottom: 5px;
     }
     .section-7-row-one-content {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .section-7-row-one-content h3 {
-        background-color: #FF6433;
-        padding: 4px 15.5px;
+        background-color:#FF6433;
+        padding: 10px 15px;
         color: white;
-        font-size: 20px;
-    
     }
     #section-7-row-one p {
-        color: #939191;
-        width: 85%;
-        font-size: 14px;
-        line-height: 20px;
+        width: 80%;
+        text-align: justify;
     }
-    .section-7-other-rows-content {
-       display: flex;
-       width: 60%;
-       margin: auto;
-       justify-content: space-between;
-       background-color: white;
-       margin-bottom: 7px;
-       padding: 14px 25px;
-    }
-    
-    .section-7-other-rows-content h4 {
-        padding-top: 8px;
-    }
-    .section-7-other-rows-content h3 {
-        background-color: #FF6433;
-        padding: 8px 15.5px;
-        color: white;
-        font-size: 20px;
+    .section-7 h2 {
+        margin: 0 0 2% 0;
+        padding-top: 5%;
     }
     
     /*eigth section*/
@@ -539,7 +515,7 @@
     .section-8-left h1{
         color: white;
         width:75%;
-        padding-top: 35%;
+        padding-top: 10%;
         margin-bottom: 5%;
     }
     
@@ -548,7 +524,7 @@
         display: flex;
         justify-content: space-between;
         width: 40%;
-        margin-bottom: 30%;
+        margin-bottom: 15%;
     }
     
     
@@ -800,10 +776,8 @@
             background-position: center;
             background-size: cover;
             width: 100%;
-            min-height: 100vh;
             margin: auto;
             color: white;
-            
         }
         .left-half h1, .left-half h3  {
             text-shadow: 1px 1px #FF6433;
@@ -818,7 +792,6 @@
         .right-half {
             width: 100%;
             margin: auto;
-            min-height: 100vh;
             display: none;
         }
         .right-half .fa {
@@ -926,9 +899,11 @@
             width: 115px;
             height: 90px;
             text-align: center;
-            padding: 25px;
-            margin: 2px 2px;
-            
+            padding: 20px;
+            margin: 2px 2px; 
+        }
+        .engine h5 {
+            font-size: 13px;
         }
         .engine img {
            width: 20px;
@@ -950,31 +925,34 @@
         .section-5 {
         }
         .first-half {
-            height: 50vh;
+            height: 100%;
         }
         .second-half {
-            height: 50vh;
+            height: 100%;
         }
         .getInTouch {
             width: 70%;
-            height: 50vh;
+            height: 100%;
             background-color: #FF6433;
             position: absolute;
             left: 30%;
             text-align: center;
         }
-        .getInTouch h2 {
+        .getInTouch h3 {
             font-size: 33px;
             width: 80%;
             margin: 20px auto;
             text-align: center;
-            
+        }
+        #getInTouchH3 {
+            font-size: 25px;
         }
         .getInTouch button {
             margin: 5px auto ;
         }
         .section-5-first {
             flex-direction: column;
+            height: 80vh;
         }
         .second-half {
             width: 100%;
@@ -982,10 +960,7 @@
         .first-half {
             width: 100%;
         }
-        .section-5-second {
-        }
-        .section-5-third {
-        }
+      
         #number-text-id {
             padding: 0px 5px 5px 5px;
             width: 100%;
@@ -995,8 +970,6 @@
             width: 100%;
         }
         /*sixth section*/
-        .section-6 {
-        }
         .section-6-container {
             width: 90%;
         }
@@ -1011,24 +984,9 @@
             display: none;
         }
         /*seventh section*/
-        .section-7 {
-        }
-     
-        #section-7-row-one {
+        
+        .section-7-container {
             width: 90%;
-        }
-        #section-7-row-one p {
-            width: 90%;
-            text-align: justify;
-        }
-        .section-7-other-rows-content {
-            width: 90%;
-        }
-        .section-7-other-rows-content h3 {
-            padding: 4px 8px;
-        }
-        .section-7-row-one-content h3 {
-            padding: 4px 8px;
         }
         /*eigth section*/
     
@@ -1083,7 +1041,7 @@
         .section-9 .list ul {
             display: flex;
             flex-wrap: wrap;
-            width: 50%;
+            width: 60%;
             margin: 5% auto;
             justify-content: space-between;
         }
@@ -1412,52 +1370,24 @@
             display: none;
         }
         /*fifth section*/
-        .getInTouch {
-            width: 70%;
-            min-height: 100%;
-            background-color: #FF6433;
-            position: absolute;
-            left: 30%;
-            text-align: center;
+      
+        #getInTouchH3 {
+            font-size: 20px;
         }
-        .getInTouch h3 {
-            font-size: 23px;
-            width: 80%;
-            margin: 20px auto;
-            text-align: center;
-            
-        }
-        .getInTouch button {
-            margin: 5px auto ;
-        }
+        
         .section-5-first {
             flex-direction: column;
         }
-        .second-half {
-            width: 100%;
+        .section-5-second {
+            padding: 0px 5px;
         }
-        .first-half {
-            width: 100%;
+        #numbers-id h2 {
+            font-size: 20px;
         }
-        #number-text-id {
-            padding: 0px 5px 5px 5px;
-            width: 100%;
-            font-size: 5px;
-        }.section-5-second {
-            min-height: 10vh
-        }
-        .brands {
-            width: 100%;
+        #number-text-id h5 {
+            font-size: 8px;
         }
         /*sixth section*/
-        /* .section-6-container {
-            width: 100%;
-            min-eight: 100vh;
-            margin-bottom: 25%;
-        }
-        .section-6 {
-            min-hight: 100vh;
-        } */
         .section-6-body {
             width: 90%;
             height: 200px;
@@ -1479,19 +1409,11 @@
             display: none;
         }
         /*seventh section*/
-        .section-7 {
-            min-height: 80vh;
-        }
-        
         #section-7-row-one {
             width: 100%;
         }
-        #section-7-row-one p {
-            width: 90%;
-            text-align: justify;
-        }
-        .section-7-other-rows-content {
-            width: 100%;
+        .section-7 h2 {
+            font-size: 20px;
         }
         .section-7-other-rows-content h3 {
             padding: 4px 8px;
@@ -1502,70 +1424,23 @@
             font-size: 13px;
         }
         /*eigth section*/
-    
-         .section-8 {
-            background-color: hsla(0, 5%, 11%, 0.938);
-            
-        }
         .section-8-container {
             width: 80%;
             margin: auto;
             flex-direction: column;
         }
-        .section-8-left{
-            width: 100%;
-        }
-        .section-8-left h1{
-            color: white;
-            width:90%;
-            margin: 20px auto;
-            padding-top: 15%;
-            margin-bottom: 5%;
-        }
-        .section-8-left-images {
-            margin: 10% auto;
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-        }
-        .section-8-right {
-            width: 100%;
-        }
-        
-        .section-8-right-box {
-            padding-top: 15%;
-            text-align: center;
-        }
         .section-9-container {
-            min-height: 20vh;
-            width: 100%;
-            background-color: rgb(30, 27, 27);
             flex-direction: column;
         }
-        .section-9 {
-            width: 100%;
-            min-height: 20vh;
-            padding-top: 25px;
-            color: white;
-        }
-    
-        
         .section-9 .list ul {
             display: flex;
             flex-wrap: wrap;
-            width: 50%;
-            margin: 5% auto;
-            justify-content: space-between;
+            width: 60%;
         }
-        
         .section-9 .list ul li {
-            margin-right: 25px;
-            list-style: none;
+            font-size: 13px;
         }
         
-        .section-9 h4 {
-            color: #939191;
-        }
         /* services mobile */
 
         .services-third {
