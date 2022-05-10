@@ -706,7 +706,7 @@
     
 
 
-    @media (max-width: 850px) {
+    @media (max-width: 850px) and (min-width: 451px) {
     
         header {
             width: 100%;
