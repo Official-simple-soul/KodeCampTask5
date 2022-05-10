@@ -952,13 +952,13 @@
         }
         .section-5-first {
             flex-direction: column;
+            height: 100vh;
         }
         .second-half {
             width: 100%;
         }
         .first-half {
             width: 100%;
-            height: 100vh;
         }
       
         #number-text-id {
