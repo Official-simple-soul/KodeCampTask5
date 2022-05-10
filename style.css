@@ -702,12 +702,12 @@
         font-size: 18px;
         margin-top: 25px;
     }
+
     
     
 
 
-    @media (max-width: 850px) and (min-width: 451px) {
-    
+    @media (max-width: 850px) {
         header {
             width: 100%;
             flex-direction: column;
@@ -956,8 +956,6 @@
             flex-direction: column;
             height: 100vh;
         }
-        }
-      
         #number-text-id {
             padding: 0px 5px 5px 5px;
             width: 100%;
