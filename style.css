@@ -924,11 +924,13 @@
         /*fifth section*/
         .section-5 {
         }
-        .first-half {
+         .first-half {
             height: 100%;
+            width: 100%;
         }
         .second-half {
             height: 100%;
+            width: 100%;
         }
         .getInTouch {
             width: 70%;
@@ -953,12 +955,6 @@
         .section-5-first {
             flex-direction: column;
             height: 100vh;
-        }
-        .second-half {
-            width: 100%;
-        }
-        .first-half {
-            width: 100%;
         }
       
         #number-text-id {
